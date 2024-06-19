@@ -1,0 +1,25 @@
+<% layout('layouts/boilerplate')%>
+    <div class="container d-flex justify-content-center align-item-center mt-5">
+        <div class="row">
+            <div class="col-md-6  offset-md-3 col-x1-4 offset-xl-4">
+                <div class="card shadow">
+                    <img crossorigin="anonymous" src="https://media.istockphoto.com/id/1377841262/photo/the-beautiful-scenery-of-a-tent-in-a-pine-tree-forest-at-pang-oung-mae-hong-son-province.jpg?s=612x612&w=0&k=20&c=1JvDx-16zTIeytdcC-Fa27nVJ_8SveP-omNKKlUJ-lQ=" alt="" class="card-img-top">
+                    <div class="card-body">
+                     <h5 class="card-title">Login</h5>
+                    <form action="/login" method="post" class="validated-form" novalidate>
+                        <div class="mb-3">
+                            <label class="form-group" for="username">username</label>
+                            <input class="form-control" type="text" id="username" name="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password">password</label>
+                            <input class="form-control" type="password" id="password" name="password" required>
+                        </div>
+                        <button class="btn btn-success">login</button>
+                    </form>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
